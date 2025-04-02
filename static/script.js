@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "rice": {
             name: "Rice",
             description: "Rice is a staple food for a large part of the world's population. It grows well in warm, humid climates with plenty of water.",
-            image: "../images/rice.jpg",
+            image: "/static/images/rice.jpg",
             optimalParams: {
                 growingSeason: "Kharif (June - November)",
                 waterNeeds: "High (150-300 cm)",
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "maize": {
             name: "Maize (Corn)",
             description: "Maize is a widely cultivated cereal grain. It's versatile and used for human consumption, animal feed, and industrial products.",
-            image: "../images/maize.jpg",
+            image: "/static/images/maize.jpg",
             optimalParams: {
                 growingSeason: "Both Kharif and Rabi",
                 waterNeeds: "Moderate (60-120 cm)",
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "chickpea": {
             name: "Chickpea",
             description: "Chickpeas are a rich source of protein and are grown mainly in dry areas.",
-            image: "../images/chickpeas.jpg",
+            image: "/static/images/chickpeas.jpg",
             optimalParams: {
                 growingSeason: "Rabi (October - March)",
                 waterNeeds: "Low (40-60 cm)",
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "kidneybeans": {
             name: "Kidney Beans",
             description: "Kidney beans are a nutritious legume rich in protein and fiber.",
-            image: "../images/kidneybeans.jpeg",
+            image: "/static/images/kidneybeans.jpeg",
             optimalParams: {
                 growingSeason: "Kharif (June - September)",
                 waterNeeds: "Moderate (50-100 cm)",
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "pigeonpeas": {
             name: "Pigeon Peas",
             description: "Pigeon peas are a drought-resistant legume commonly grown in semi-arid regions.",
-            image: "../images/pigeonpeas.jpg",
+            image: "/static/images/pigeonpeas.jpg",
             optimalParams: {
                 growingSeason: "Kharif (June - October)",
                 waterNeeds: "Moderate (60-100 cm)",
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "mothbeans": {
             name: "Moth Beans",
             description: "Moth beans are a drought-resistant legume grown mainly in arid and semi-arid regions.",
-            image: "../images/mothbeans.jpeg",
+            image: "/static/images/mothbeans.jpeg",
             optimalParams: {
                 growingSeason: "Kharif (July - September)",
                 waterNeeds: "Low (40-60 cm)",
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "mungbean": {
             name: "Mung Bean",
             description: "Mung beans are a small, green legume rich in protein and commonly used in Asian cuisine.",
-            image: "../images/mungbeans.jpeg",
+            image: "/static/images/mungbeans.jpeg",
             optimalParams: {
                 growingSeason: "Kharif (July - October)",
                 waterNeeds: "Moderate (50-100 cm)",
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "blackgram": {
             name: "Black Gram",
             description: "Black gram is a high-protein pulse crop used in various cuisines.",
-            image: "../images/blackgram.jpg",
+            image: "/static/images/blackgram.jpg",
             optimalParams: {
                 growingSeason: "Kharif (July - October)",
                 waterNeeds: "Moderate (50-100 cm)",
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "lentil": {
             name: "Lentil",
             description: "Lentils are a protein-rich legume grown in cool-season conditions.",
-            image: "../images/lentil.jpeg",
+            image: "/static/images/lentil.jpeg",
             optimalParams: {
                 growingSeason: "Rabi (November - March)",
                 waterNeeds: "Low (30-50 cm)",
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "pomegranate": {
             name: "Pomegranate",
             description: "Pomegranates are a fruit crop known for their rich antioxidants and nutritional value.",
-            image: "../images/pomogranate.jpeg",
+            image: "/static/images/pomogranate.jpeg",
             optimalParams: {
                 growingSeason: "Perennial (March - June planting)",
                 waterNeeds: "Moderate (50-100 cm)",
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "banana": {
             name: "Banana",
             description: "Bananas are a tropical fruit that grows year-round in warm climates.",
-            image: "../images/banana.jpg",
+            image: "/static/images/banana.jpg",
             optimalParams: {
                 growingSeason: "Perennial",
                 waterNeeds: "High (100-250 cm)",
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "mango": {
             name: "Mango",
             description: "Mango is a tropical fruit known for its sweet, juicy flavor and rich nutritional value.",
-            image: "../images/mango.jpg",
+            image: "/static/images/mango.jpg",
             optimalParams: {
                 growingSeason: "Summer (March - June)",
                 waterNeeds: "Moderate (75-200 cm)",
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "grapes": {
             name: "Grapes",
             description: "Grapes are a widely cultivated fruit used for fresh consumption and winemaking.",
-            image: "../images/grapes.jpg",
+            image: "/static/images/grapes.jpg",
             optimalParams: {
                 growingSeason: "Perennial (March - May)",
                 waterNeeds: "Moderate (50-100 cm)",
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "watermelon": {
             name: "Watermelon",
             description: "Watermelon is a refreshing fruit rich in water content and grown in warm climates.",
-            image: "../images/watermelon.jpeg",
+            image: "/static/images/watermelon.jpeg",
             optimalParams: {
                 growingSeason: "Summer (March - June)",
                 waterNeeds: "Moderate (50-75 cm)",
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "muskmelon": {
             name: "Muskmelon",
             description: "Muskmelon is a sweet, aromatic fruit that thrives in warm climates.",
-            image: "../images/muskmelon.jpg",
+            image: "/static/images/muskmelon.jpg",
             optimalParams: {
                 growingSeason: "Summer (March - June)",
                 waterNeeds: "Moderate (50-75 cm)",
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "apple": {
             name: "Apple",
             description: "Apples are a popular fruit grown in temperate regions, known for their crisp texture and sweet taste.",
-            image: "../images/apple.jpg",
+            image: "/static/images/apple.jpg",
             optimalParams: {
                 growingSeason: "Temperate (April - October)",
                 waterNeeds: "Moderate (50-100 cm)",
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "orange": {
             name: "Orange",
             description: "Oranges are citrus fruits valued for their vitamin C content and refreshing taste.",
-            image: "../images/orange.jpeg",
+            image: "/static/images/orange.jpeg",
             optimalParams: {
                 growingSeason: "Winter (October - March)",
                 waterNeeds: "Moderate (60-120 cm)",
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "papaya": {
             name: "Papaya",
             description: "Papayas are tropical fruits known for their soft texture and sweet taste.",
-            image: "../images/papaya.jpeg",
+            image: "/static/images/papaya.jpeg",
             optimalParams: {
                 growingSeason: "Tropical (Year-round)",
                 waterNeeds: "High (100-250 cm)",
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "coconut": {
             name: "Coconut",
             description: "Coconuts are tropical fruits known for their versatility and high water content.",
-            image: "../images/coconut.jpg",
+            image: "/static/images/coconut.jpg",
             optimalParams: {
                 growingSeason: "Tropical (Year-round)",
                 waterNeeds: "High (150-300 cm)",
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "cotton": {
             name: "Cotton",
             description: "Cotton is a fiber crop used extensively in the textile industry.",
-            image: "../images/cotton.jpg",
+            image: "/static/images/cotton.jpg",
             optimalParams: {
                 growingSeason: "Kharif (April - September)",
                 waterNeeds: "Moderate (50-120 cm)",
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "jute": {
             name: "Jute",
             description: "Jute is a fiber crop used for making ropes, sacks, and other products.",
-            image: "../images/jute.jpg",
+            image: "/static/images/jute.jpg",
             optimalParams: {
                 growingSeason: "Kharif (March - July)",
                 waterNeeds: "High (150-300 cm)",
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "coffee": {
             name: "Coffee",
             description: "Coffee is a globally consumed beverage crop known for its stimulating effects.",
-            image: "../images/coffee.jpg",
+            image: "/static/images/coffee.jpg",
             optimalParams: {
                 growingSeason: "Tropical (Year-round)",
                 waterNeeds: "Moderate (100-200 cm)",
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         try {
             // Send data to Flask backend
-            const response = await fetch('http://127.0.0.1:5000/predict', { // Adjust URL if hosted elsewhere
+            const response = await fetch('https://crop-recommendation-system-vj0w.onrender.com/predict', { // Adjust URL if hosted elsewhere
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData)
