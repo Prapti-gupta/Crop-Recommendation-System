@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import joblib
 import numpy as np
 from flask_cors import CORS
@@ -7,6 +7,7 @@ import traceback
 
 app = Flask(__name__)
 CORS(app)  # Allow all origins
+
 
 def load_model():
     """Helper function to load the model with proper error handling"""
@@ -33,6 +34,12 @@ try:
 except Exception as e:
     print(f"Failed to load model: {str(e)}")
     model = None
+
+
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -103,4 +110,5 @@ def health_check():
     return jsonify(status)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Render assigns a dynamic port
+    app.run(host="0.0.0.0", port=port)
