@@ -11,7 +11,7 @@ CORS(app)  # Allow all origins
 
 def load_model():
     """Helper function to load the model with proper error handling"""
-    model_path = "models\RandomForest.pkl"
+    model_path = "models/RandomForest.pkl"
     
     if not os.path.exists(model_path):
         raise FileNotFoundError(f"Model file not found at {model_path}")
