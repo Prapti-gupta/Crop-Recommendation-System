@@ -35,6 +35,4 @@ An ML-based web application that suggests suitable crops based on soil and clima
 ---
 
 ## 🖼️ UI Preview
-```md
-![Home Page](screenshots/home.png)
 ![Prediction Result](screenshots/result.png)
