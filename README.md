@@ -2,7 +2,7 @@
 
 An ML-based web application that suggests suitable crops based on soil and climate data. The system evaluates multiple machine learning models and selects the best-performing one — **Random Forest** — for accurate crop prediction.
 
----
+
 
 ## 🚀 Tech Stack
 
@@ -10,7 +10,6 @@ An ML-based web application that suggests suitable crops based on soil and clima
 - **Backend:** Python Flask  
 - **ML Model:** Random Forest (after evaluating multiple models)  
 
----
 
 ## 🧠 Features
 
@@ -19,7 +18,6 @@ An ML-based web application that suggests suitable crops based on soil and clima
 - Displays recommended crop with high accuracy  
 - Fast and interactive frontend with seamless Flask integration  
 
----
 
 ## 📊 Machine Learning Details
 
